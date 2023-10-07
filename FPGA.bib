@@ -144,6 +144,14 @@
 %                 FPGA Place & Route
 % ===============================================================
 % ==== FPGA P&R
+@inproceedings{FPGA_ICCAD1986_Frankle,
+  title     = {Circuit placements and cost bounds by eigenvector decomposition},
+  author    = {Frankle, Jon and Karp, Richard M},
+  booktitle = iccad,
+  pages     = {414--417},
+  year      = {1986},
+  abstract  = {eigenvalue-based quadratic placement}
+}
 @article{FPGA_TRETS2014_VTR,
   title     = {{VTR 7.0}: Next generation architecture and {CAD} system for {FPGAs}},
   author    = {Luu, Jason and Goeders, Jeffrey and Wainberg, Michael and Somerville, Andrew and Yu, Thien and Nasartschuk, Konstantin and Nasr, Miad and Wang, Sen and Liu, Tim and Ahmed, Nooruddin and others},
@@ -353,13 +361,6 @@
   pages     = {139--143},
   year      = {2016}
 }
-@inproceedings{FPGA_ICCAD2016_Li,
-  title     = {{UTPlaceF}: A Routability-driven {FPGA} Placer with Physical and Congestion aware Packing},
-  author    = {Li, Wuxi and Dhar, Shounak and Pan, David Z.},
-  booktitle = iccad,
-  pages     = {66:1--66:7},
-  year      = {2016}
-}
 @inproceedings{FPGA_ICCAD2016_Pui,
   title     = {{RippleFPGA}: A Routability-driven Placement for Large-scale Heterogeneous {FPGAs}},
   author    = {Pui, Chak-Wa and Chen, Gengjie and Chow, Wing-Kai and Lam, Ka-Chun and Kuang, Jian and Tu, Peishan and Zhang, Hang and Young, Evangeline F.~Y. and Yu, Bei},
@@ -386,7 +387,8 @@
   author    = {Pui, Chak-Wa and Chen, Gengjie and Ma, Yuzhe and Young, Evangeline FY and Yu, Bei},
   booktitle = iccad,
   pages     = {929--936},
-  year      = {2017}
+  year      = {2017},
+  abstract  = {clock-aware RippleFPGA}
 }
 @article{FPGA_TCAD2018_Chen,
   title     = {{RippleFPGA}: Routability-driven simultaneous packing and placement for modern {FPGA}s},
@@ -408,6 +410,105 @@
   year      = {2018},
   publisher = {ACM New York, NY, USA}
 }
+@inproceedings{FPGA_ICCAD2016_Li,
+  title     = {{UTPlaceF}: A Routability-driven {FPGA} Placer with Physical and Congestion aware Packing},
+  author    = {Li, Wuxi and Dhar, Shounak and Pan, David Z.},
+  booktitle = iccad,
+  pages     = {66:1--66:7},
+  year      = {2016}
+}
+@article{FPGA_TODAES2018_Li,
+  title     = {UTPlaceF 2.0: A high-performance clock-aware FPGA placement engine},
+  author    = {Li, Wuxi and Lin, Yibo and Li, Meng and Dhar, Shounak and Pan, David Z},
+  journal   = todaes,
+  volume    = {23},
+  number    = {4},
+  pages     = {1--23},
+  year      = {2018},
+  publisher = {ACM New York, NY, USA}
+}
+@article{FPGA_TCAD2019_Li,
+  title     = {A new paradigm for FPGA placement without explicit packing},
+  author    = {Li, Wuxi and Pan, David Z},
+  journal   = tcad,
+  volume    = {38},
+  number    = {11},
+  pages     = {2113--2126},
+  year      = {2018},
+  publisher = {IEEE}
+}
+@inproceedings{FPGA_FPGA2019_Li,
+  title     = {Simultaneous placement and clock tree construction for modern fpgas},
+  author    = {Li, Wuxi and Dehkordi, Mehrdad E and Yang, Stephen and Pan, David Z},
+  booktitle = fpga,
+  pages     = {132--141},
+  year      = {2019}
+}
+@inproceedings{FPGA_ASPDAC2022_Rajarathnam,
+  title        = {DREAMPlaceFPGA: An open-source analytical placer for large scale heterogeneous FPGAs using deep-learning toolkit},
+  author       = {Rajarathnam, Rachel Selina and Alawieh, Mohamed Baker and Jiang, Zixuan and Iyer, Mahesh and Pan, David Z},
+  booktitle    = aspdac,
+  pages        = {300--306},
+  year         = {2022},
+  organization = {IEEE}
+}
+@article{FPGA_ARXIV2023_Mai,
+  title   = {{OpenPARF}: An Open-Source Placement and Routing Framework for Large-Scale Heterogeneous FPGAs with Deep Learning Toolkit},
+  author  = {Mai, Jing and Wang, Jiarui and Di, Zhixiong and Luo, Guojie and Liang, Yun and Lin, Yibo},
+  journal = {arXiv preprint arXiv:2109.14899},
+  year    = {2023}
+}
+@article{FPGA_TCAD2021_Meng,
+  title     = {elfplace: Electrostatics-based placement for large-scale heterogeneous fpgas},
+  author    = {Meng, Yibai and Li, Wuxi and Lin, Yibo and Pan, David Z},
+  journal   = tcad,
+  volume    = {41},
+  number    = {1},
+  pages     = {155--168},
+  year      = {2021},
+  publisher = {IEEE}
+}
+@inproceedings{FPGA_DAC2019_Martin,
+  title     = {A flat timing-driven placement flow for modern FPGAs},
+  author    = {Martin, Timothy and Maarouf, Dani and Abuowaimer, Ziad and Alhyari, Abeer and Grewal, Gary and Areibi, Shawki},
+  booktitle = dac,
+  pages     = {1--6},
+  year      = {2019}
+}
+@article{FPGA_TCAD2020_Chen,
+  title     = {Clock-aware placement for large-scale heterogeneous FPGAs},
+  author    = {Chen, Jianli and Lin, Zhifeng and Kuo, Yun-Chih and Huang, Chau-Chin and Chang, Yao-Wen and Chen, Shih-Chun and Chiang, Chun-Han and Kuo, Sy-Yen},
+  journal   = tcad,
+  volume    = {39},
+  number    = {12},
+  pages     = {5042--5055},
+  year      = {2020},
+  publisher = {IEEE},
+  abstract  = {NTUfPlace}
+}
+@inproceedings{FPGA_DATE2021_Lin,
+  title        = {Timing-driven placement for fpgas with heterogeneous architectures and clock constraints},
+  author       = {Lin, Zhifeng and Xie, Yanyue and Qian, Gang and Chen, Jianli and Wang, Sifei and Yu, Jun and Chang, Yao-Wen},
+  booktitle    = date,
+  pages        = {1564--1569},
+  year         = {2021},
+  organization = {IEEE},
+  abstract     = {Electronics-based placement}
+}
+@inproceedings{FPGA_ICCAD2021_Liang,
+  title        = {Amf-placer: High-performance analytical mixed-size placer for fpga},
+  author       = {Liang, Tingyuan and Chen, Gengjie and Zhao, Jieru and Sinha, Sharad and Zhang, Wei},
+  booktitle    = iccad,
+  pages        = {1--9},
+  year         = {2021},
+  organization = {IEEE}
+}
+@article{FPGA_ARXIV2022_Liang,
+  title   = {AMF-Placer 2.0: Open Source Timing-driven Analytical Mixed-size Placer for Large-scale Heterogeneous FPGA},
+  author  = {Liang, Tingyuan and Chen, Gengjie and Zhao, Jieru and Sinha, Sharad and Zhang, Wei},
+  journal = {arXiv preprint arXiv:2210.08682},
+  year    = {2022}
+}
 %}}}
 % ==== FPGA Routing
 @article{FPGA_TCAD1996_Alexander,
@@ -418,16 +519,6 @@
   number    = {12},
   pages     = {1505--1517},
   year      = {1996},
-  publisher = {IEEE}
-}
-@article{FPGA_TCAD2019_Li,
-  title     = {A new paradigm for FPGA placement without explicit packing},
-  author    = {Li, Wuxi and Pan, David Z},
-  journal   = tcad,
-  volume    = {38},
-  number    = {11},
-  pages     = {2113--2126},
-  year      = {2018},
   publisher = {IEEE}
 }
 
